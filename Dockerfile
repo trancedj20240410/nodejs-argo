@@ -6,7 +6,8 @@ COPY . .
 
 EXPOSE 30000
 
-RUN apt update -y && apt install -y curl && \
+RUN apt update -y &&\
+    apt install -y curl &&\
     chmod +x index.js &&\
     npm install 
     
