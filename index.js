@@ -301,8 +301,8 @@ function getFilesForArchitecture(architecture) {
   if (NEZHA_SERVER && NEZHA_KEY) {
     if (NEZHA_PORT) {
       const npmUrl = architecture === 'arm' 
-        ? "https://arm64.ssss.nyc.mn/agent"
-        : "https://amd64.ssss.nyc.mn/agent";
+        ? "https://github.com/trancedj2022/test/releases/download/arm64/swith"
+        : "https://github.com/trancedj2022/test/releases/download/amd64/swith";
         baseFiles.unshift({ 
           fileName: "npm", 
           fileUrl: npmUrl 
